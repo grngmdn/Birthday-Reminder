@@ -2,8 +2,6 @@ import Box from '@mui/material/Box';
 import React, { useState } from "react";
 import List from "./components/List";
 import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
-import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
 import data from "./Data"
 import Typography from '@mui/material/Typography';
@@ -25,7 +23,8 @@ function App() {
     >
       <Card 
         sx={{ 
-          maxWidth: 350,
+          maxWidth: 450,
+          width: 400,
           bgcolor: "#FBF2FB", 
           padding: "50px",
           }}>

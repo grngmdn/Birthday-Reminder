@@ -12,21 +12,29 @@ function List({people}) {
               sx={{
                 display: "flex",
                 flexDirection: "row",
-                justifyContent: "center",
+                justifyContent: "flex-start",
                 alignItems: "center",
                 color: "#21254A",
+                paddingBottom: "10px",
+                paddingTop: "10px"
               }}
             >
-              <img 
-                src={people.image}
-                alt="The picture of the people"
-                className='circle'
-              />
+              <Box
+                sx={{
+                }}
+              >
+                <img 
+                  src={people.image}
+                  alt="The picture of the people"
+                  className='circle'
+                />
+              </Box>
+
               <Box
                 sx={{
                   display: "flex",
                   flexDirection: "column",
-                  padding: "30px"
+                  paddingLeft: "30px"
                 }}
               >
                 <Typography
